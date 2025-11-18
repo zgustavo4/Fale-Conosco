@@ -8,19 +8,25 @@
 /* Fundo*/
 body {
     background-color: #ffffff;
-    display: flex;
-    justify-content: center;
     padding: 80px;
+    text-align: center; 
+    
+    min-height: 100vh;
+}
+.imagem {
+    margin-bottom: 20px; 
+    flex-shrink: 0;
 }
 
 /* Container*/
 .container {
-    background: #673AB7;
+    background: #673AB7; 
     width: 100%;
     max-width: 450px;
     padding: 25px 30px;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin: 0 auto; 
 }
 
 /* Título */
@@ -74,4 +80,5 @@ input {
     color: #000000;
     text-align: center;
 }
+
 
