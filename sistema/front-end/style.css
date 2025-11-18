@@ -15,7 +15,7 @@ body {
 
 /* Container*/
 .container {
-    background: rgb(163, 99, 155);
+    background: #673AB7;
     width: 100%;
     max-width: 450px;
     padding: 25px 30px;
@@ -28,7 +28,7 @@ body {
     text-align: center;
     margin-bottom: 25px;
     font-size: 28px;
-    color: #333;
+    color: #000000;
 }
 
 /* Labels */
@@ -36,7 +36,7 @@ label {
     font-weight: bold;
     margin-top: 12px;
     display: block;
-    color: #444;
+    color: #000000;
 }
 
 /* Inputs */
@@ -45,7 +45,7 @@ input {
     padding: 10px;
     margin-top: 6px;
     border-radius: 6px;
-    border: 1px solid #bbb;
+    border: 1px solid #D1C4E9;
     font-size: 15px;
     transition: 0.3s;
 }
@@ -55,7 +55,7 @@ input {
     margin-top: 20px;
     width: 100%;
     padding: 12px;
-    background: #62037a;
+    background: #D1C4E9;
     color: #fff;
     border: none;
     font-size: 17px;
@@ -71,6 +71,7 @@ input {
 #resultado {
     margin-top: 20px;
     font-size: 16px;
-    color: #333;
+    color: #000000;
     text-align: center;
 }
+
