@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo geral */
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+/* Container principal */
+.container {
+    background: rgb(163, 99, 155);
+    width: 100%;
+    max-width: 450px;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Título */
+.container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    margin-top: 12px;
+    display: block;
+    color: #444;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+/* Foco */
+input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Botão */
+#btn_enviar {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background: #62037a;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn_enviar:hover {
+    background: #0056b3;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
